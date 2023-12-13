@@ -1,0 +1,13 @@
+.BG_image{
+    /* background-color: red; */
+    background-image: url('./images/Group\ 2570.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.bd-image2{
+    background-image: url('./images/Vector\ 238.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
