@@ -11,10 +11,10 @@ function MainBanner() {
                 <div>
                     <img src={bgBannerImg} alt="bgBannerImg" className="float-right w-3/5" />
                 </div>
-                <div className="absolute top-12 left-35 w-11/12">
+                <div className="absolute top-12 left-35 w-full">
                     <Header />
                 </div>
-                <div className='absolute top-60 w-11/12'>
+                <div className='absolute top-48 w-11/12'>
                     <Banner />
                 </div>
             </div>

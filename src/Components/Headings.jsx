@@ -3,7 +3,7 @@ import React from 'react'
 function Headings(props) {
     return (
         <>
-             <p className='text-4xl font-bold my-0.5 my-2'>{props.heading}</p>
+             <p className='font-bold text-[40px] text-[#2C234D] w-[488px] my-0.5 my-2'>{props.heading}</p>
         </>
     )
 }

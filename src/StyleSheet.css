@@ -11,3 +11,16 @@
     background-repeat: no-repeat;
 
 }
+.centerImage{
+    background-image: url('./images/Group\ 2571.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.bg-gradient-rgba {
+    background: linear-gradient(to bottom right, rgba(89, 91, 212, 0.15), rgba(161, 53, 241, 0.15));
+    border-width: 3px;
+    border-image: linear-gradient(to right, rgba(161, 53, 241, 0.15), rgba(89, 91, 212, 0.15)) 1;
+    border-style: solid;
+    border-radius: 20px;
+  }

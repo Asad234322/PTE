@@ -6,7 +6,6 @@ import PTEstudyTool from './Components/PTEstudyTool';
 import PTEpracticePlatform from './Components/PTEpracticePlatform';
 import PTEMaterials from './Components/PTEMaterials';
 import MainFeature from './Components/MainFeature';
-import FeaturesCard from './Components/FeaturesCard';
 import OtherAwosomeFeatures from './Components/OtherAwosomeFeatures';
 import FeaturesName from './Components/FeaturesName';
 import StillQuestion from './Components/StillQuestion';
@@ -23,7 +22,6 @@ function App() {
       <PTEpracticePlatform />
       <PTEMaterials />
       <MainFeature />
-      {/* <FeaturesCard /> */}
       <OtherAwosomeFeatures />
       <FeaturesName />
       <StillQuestion />

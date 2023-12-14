@@ -11,21 +11,22 @@ function Banner() {
         <>
             <div className='flex justify-between'>
                 <div className='text-justify ml-28	'>
-                    <h1 className=' font-bold text-6xl leading-snug text-gray-600 mt-16'>Practice
-                        <span className="text-purple-500"> ILETS</span><br></br>
-                        with AI Scorings,<br></br> for <span className="text-purple-500">Free</span>
+                    <h1 className=' font-bold text-6xl leading-[72px] text-[#2C234D] mt-16'>Practice
+                        <span className="text-[#5838FC]"> ILETS</span><br></br>
+                        with AI Scorings,<br></br> for <span className="text-[#5838FC]">Free</span>
                     </h1>
-                    <div className='mt-12'>
+                    
+                    <img src={Cube1} alt="Cube1" className='absolute top-[-1rem] left-56' />
+                    <img src={Cube2} alt="Cube2" className='absolute bottom-0 left-[3rem]' />
+                    <img src={Diamond} alt="Diamond" className='absolute bottom-[-1rem] left-[41rem] w-24' />
+                    <div className='mt-[3rem] absolute bottom-[-2rem]'>
                         <Button data="Practice Now" />
                     </div>
-                    <img src={Cube1} alt="Cube1" className='absolute top-4 left-40' />
-                    <img src={Cube2} alt="Cube2" className='absolute bottom-12' />
-                    <img src={Diamond} alt="Diamond" className='absolute bottom-8 left-2/4 w-14' />
                 </div>
                 <img src={Layer1}
                     alt="Layer1 cl"
-                    className='block' />
-                <img src={Vector1} alt="Vector1" className='absolute top-72 w-44' />
+                    className='block w-[35rem] h-[25rem]' />
+                <img src={Vector1} alt="Vector1" className='absolute top-[21rem] w-28' />
             </div>
         </>
     )
